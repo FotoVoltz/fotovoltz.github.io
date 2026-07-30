@@ -3,28 +3,36 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Dinesh Behera — EPSRC-funded PhD researcher specialising in scalable spray-coated perovskite photovoltaics, thin-film device fabrication, characterisation, and modelling." />
-  <meta name="author" content="Dinesh Behera" />
-  <meta property="og:title" content="Dinesh Behera | Perovskite PV Researcher" />
-  <meta property="og:description" content="Research in scalable perovskite photovoltaics, lightweight structural PV, thin-film fabrication, device characterisation, and drift-diffusion modelling." />
-  <meta property="og:type" content="website" />
+
   <title>Dinesh Behera | Perovskite Photovoltaics Researcher</title>
+  <meta name="description" content="Dinesh Behera is an EPSRC-funded PhD researcher at the University of Sheffield specialising in scalable spray-coated perovskite solar cells, lightweight photovoltaics, device fabrication, characterisation, and modelling." />
+  <meta name="author" content="Dinesh Behera" />
+
+  <meta property="og:title" content="Dinesh Behera | Perovskite Photovoltaics Researcher" />
+  <meta property="og:description" content="Research portfolio covering scalable perovskite photovoltaics, spray coating, CFRP integration, mini-modules, device characterisation, and modelling." />
+  <meta property="og:type" content="website" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="site-header">
     <nav class="container nav">
-      <a href="#home" class="logo">DB<span>.</span></a>
-      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <a href="#home" class="logo" aria-label="Homepage">DB<span>.</span></a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        ☰
+      </button>
+
       <div class="nav-links">
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#experience">Experience</a>
-        <a href="#achievements">Achievements</a>
         <a href="#skills">Skills</a>
+        <a href="#presentations">Presentations</a>
         <a href="#contact" class="nav-cta">Contact</a>
       </div>
     </nav>
@@ -33,56 +41,102 @@
   <main>
     <section class="hero" id="home">
       <div class="container hero-grid">
-        <div>
-          <p class="eyebrow">EPSRC Doctoral Researcher · Experimental Physicist · University of Sheffield</p>
-          <h1>Advancing scalable, lightweight <span>perovskite photovoltaics.</span></h1>
+        <div class="hero-copy-block">
+          <p class="eyebrow">PhD Researcher · Perovskite Photovoltaics · Experimental Physicist</p>
+
+          <h1>
+            Developing scalable,
+            lightweight <span>perovskite photovoltaics.</span>
+          </h1>
+
           <p class="hero-copy">
-            I develop spray-coated perovskite solar cells and mini-modules, combining thin-film fabrication,
-            photovoltaic characterisation, interface engineering, and device modelling. My current research
-            focuses on integrating perovskite PV with carbon-fibre-reinforced polymer substrates for
-            lightweight, high-specific-power applications.
+            I am an EPSRC-funded doctoral researcher at the University of Sheffield,
+            specialising in spray-coated perovskite solar cells, thin-film device fabrication,
+            photovoltaic characterisation, and drift-diffusion modelling. My current work
+            focuses on integrating perovskite PV with carbon-fibre-reinforced polymer substrates
+            for lightweight, high-specific-power applications.
           </p>
+
           <div class="hero-actions">
             <a class="button primary" href="#research">Explore my research</a>
             <a class="button secondary" href="assets/Dinesh-Behera-CV.pdf" target="_blank" rel="noopener">View CV</a>
           </div>
+
           <div class="social-row">
+            <a href="mailto:dbehera1@sheffield.ac.uk">Email ↗</a>
             <a href="https://www.linkedin.com/in/dinesh-behera-8048a61b2/" target="_blank" rel="noopener">LinkedIn ↗</a>
             <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub ↗</a>
-            <a href="mailto:dbehera1@sheffield.ac.uk">Email ↗</a>
           </div>
         </div>
 
-        <aside class="hero-card" aria-label="Research summary">
-          <div class="profile-placeholder">
-            <span>Add your<br>profile photo</span>
+        <aside class="hero-panel">
+          <div class="portrait-wrap">
+            <img src="assets/profile.jpg" alt="Portrait of Dinesh Behera" class="portrait" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+            <div class="portrait-placeholder">
+              <span>Add profile.jpg<br>inside assets</span>
+            </div>
           </div>
-          <div class="hero-card-content">
+
+          <div class="hero-panel-content">
             <p class="small-label">Current research</p>
             <h2>Spray-coated PSCs on CFRP</h2>
-            <p>Scalable processing, surface and interface optimisation, mini-module development, and lightweight structural photovoltaics.</p>
+            <p>
+              Scalable fabrication, substrate engineering, device optimisation,
+              series-connected mini-modules, and high-specific-power PV.
+            </p>
           </div>
         </aside>
       </div>
     </section>
 
+    <section class="stats-strip">
+      <div class="container stats-grid">
+        <div class="stat">
+          <strong>2024–Present</strong>
+          <span>PhD in Physics</span>
+        </div>
+        <div class="stat">
+          <strong>Best Poster Award</strong>
+          <span>Faculty of Science Doctoral School Showcase, 2026</span>
+        </div>
+        <div class="stat">
+          <strong>2.38–11.62 cm²</strong>
+          <span>Mini-module scale-up targets</span>
+        </div>
+        <div class="stat">
+          <strong>EPSRC DTP</strong>
+          <span>Doctoral scholarship</span>
+        </div>
+      </div>
+    </section>
+
     <section class="section" id="about">
-      <div class="container two-column">
+      <div class="container split">
         <div>
           <p class="section-label">About</p>
-          <h2>Connecting device physics with manufacturable solar technology</h2>
+          <h2>From photovoltaic device physics to scalable fabrication</h2>
         </div>
-        <div class="about-copy">
+
+        <div class="prose">
           <p>
-            I am an EPSRC-funded PhD researcher in Physics at the University of Sheffield, specialising in
-            photovoltaic materials and device physics. My work centres on scalable spray-coated perovskite
-            solar cells and their integration onto carbon-fibre-reinforced polymer substrates.
+            My research sits at the intersection of thin-film photovoltaic fabrication,
+            materials science, device physics, and scalable manufacturing. I work with
+            perovskite solar cells from early-stage process development through device
+            fabrication, measurement, analysis, and mini-module scale-up.
           </p>
+
           <p>
-            My experience spans cleanroom and glovebox fabrication, solution processing, vacuum deposition,
-            laser patterning, electrical and materials characterisation, and drift-diffusion modelling. I am
-            particularly interested in translating high-performance laboratory devices into reliable,
-            lightweight, and scalable photovoltaic technologies.
+            My experimental background includes spray coating, spin coating, thermal and
+            electron-beam evaporation, laser patterning, glovebox processing, encapsulation,
+            and cleanroom fabrication. I combine this with electrical, optical, structural,
+            and morphological characterisation to understand how substrate roughness,
+            interfaces, and processing conditions affect device performance.
+          </p>
+
+          <p>
+            Before beginning my PhD, I worked on wide-bandgap perovskite device modelling,
+            multijunction photovoltaics, silicon disorder, SnO₂/rGO nanocomposites,
+            and physical vapour deposition techniques for thin-film solar cells.
           </p>
         </div>
       </div>
@@ -90,38 +144,54 @@
 
     <section class="section section-alt" id="research">
       <div class="container">
-        <p class="section-label">Research</p>
-        <h2>Current research themes</h2>
-        <div class="cards three">
-          <article class="card">
+        <p class="section-label">Research focus</p>
+        <h2>Current doctoral research</h2>
+
+        <div class="feature-grid">
+          <article class="feature-card feature-card-large">
             <span class="card-number">01</span>
-            <h3>Scalable spray coating</h3>
-            <p>Developing and optimising spray-coated perovskite absorbers and functional layers, with emphasis on drying, morphology, uniformity, and process reproducibility.</p>
+            <h3>Scalable spray-coated perovskite solar cells</h3>
+            <p>
+              Fabricating and optimising perovskite solar cells using scalable spray-coating
+              approaches for active and functional layers, supported by spin coating,
+              glovebox processing, evaporation, patterning, and encapsulation.
+            </p>
           </article>
-          <article class="card">
+
+          <article class="feature-card">
             <span class="card-number">02</span>
-            <h3>Lightweight structural PV</h3>
-            <p>Integrating thin-film perovskite devices onto conductive CFRP substrates for lightweight, high-specific-power, and potentially multifunctional applications.</p>
+            <h3>CFRP integration</h3>
+            <p>
+              Integrating thin-film photovoltaic devices with carbon-fibre-reinforced polymer
+              substrates for lightweight and high-specific-power applications.
+            </p>
           </article>
-          <article class="card">
+
+          <article class="feature-card">
             <span class="card-number">03</span>
-            <h3>Interfaces and morphology</h3>
-            <p>Investigating substrate roughness, interfacial engineering, and processing conditions to improve film formation, crystallisation, and photovoltaic performance.</p>
+            <h3>Interface and substrate engineering</h3>
+            <p>
+              Investigating substrate roughness, interfacial engineering, and processing
+              conditions to improve morphology, crystallisation, and device performance.
+            </p>
           </article>
-          <article class="card">
+
+          <article class="feature-card">
             <span class="card-number">04</span>
-            <h3>Mini-module development</h3>
-            <p>Scaling laboratory-scale cells into series-connected mini-modules through laser patterning, area definition, interconnection, and scalable deposition strategies.</p>
+            <h3>Mini-module scale-up</h3>
+            <p>
+              Developing fabrication strategies to scale laboratory devices into
+              series-connected mini-modules with active areas of 2.38 cm² and 11.62 cm².
+            </p>
           </article>
-          <article class="card">
+
+          <article class="feature-card">
             <span class="card-number">05</span>
-            <h3>Advanced characterisation</h3>
-            <p>Linking device performance to optical, structural, electrical, and morphological properties using J–V, EQE, spectroscopy, microscopy, diffraction, and profilometry.</p>
-          </article>
-          <article class="card">
-            <span class="card-number">06</span>
-            <h3>Device modelling</h3>
-            <p>Using SCAPS-1D and related drift-diffusion tools to study wide-bandgap perovskites, interfaces, recombination, parameter sensitivity, and multijunction potential.</p>
+            <h3>Device characterisation</h3>
+            <p>
+              Relating electrical performance to optical, structural, and morphological
+              properties through J–V, EQE, UV–Vis, PL, XRD, Raman, SEM, AFM, and profilometry.
+            </p>
           </article>
         </div>
       </div>
@@ -131,49 +201,82 @@
       <div class="container">
         <p class="section-label">Experience</p>
         <h2>Research and professional journey</h2>
+
         <div class="timeline">
           <article class="timeline-item">
             <div class="timeline-date">Oct 2024–Present</div>
-            <div>
-              <h3>Doctoral Researcher in Physics</h3>
+            <div class="timeline-content">
+              <h3>Doctoral Research Project</h3>
               <p class="institution">University of Sheffield · Supervisor: Prof. David Lidzey</p>
-              <p>Fabricating and optimising scalable spray-coated perovskite solar cells on CFRP substrates, with work spanning thin-film processing, laser patterning, encapsulation, characterisation, interface engineering, and mini-module scale-up.</p>
+              <p>
+                Fabrication and optimisation of scalable spray-coated perovskite solar cells
+                on CFRP substrates, including thin-film deposition, laser patterning,
+                encapsulation, device characterisation, and mini-module scale-up.
+              </p>
             </div>
           </article>
 
           <article class="timeline-item">
             <div class="timeline-date">Oct 2023–Sep 2024</div>
-            <div>
-              <h3>MSc Dissertation — Wide-Bandgap Perovskite Device Modelling</h3>
+            <div class="timeline-content">
+              <h3>MSc Dissertation</h3>
               <p class="institution">University of Sheffield · Supervisor: Dr. Alex Ramadan</p>
-              <p>Developed and validated a SCAPS-1D model of a 2.0 eV halide-segregation-suppressed perovskite solar cell and studied absorber, transport-layer, and interface parameters governing device performance.</p>
+              <p>
+                Developed and validated a SCAPS-1D model of a 2.0 eV
+                halide-segregation-suppressed perovskite solar cell and investigated
+                absorber, transport-layer, and interface parameters governing VOC, JSC,
+                fill factor, and efficiency.
+              </p>
             </div>
           </article>
 
           <article class="timeline-item">
             <div class="timeline-date">2024</div>
-            <div>
+            <div class="timeline-content">
               <h3>Scientific Content Writer</h3>
               <p class="institution">Ossila Ltd. · Sheffield, UK</p>
-              <p>Authored technical articles on perovskite photovoltaics for scientific and industrial audiences, translating complex concepts into clear and accurate technical content.</p>
+              <p>
+                Authored technical articles on perovskite photovoltaics for scientific
+                and industrial audiences, translating complex PV concepts into clear,
+                accurate, and engaging content.
+              </p>
             </div>
           </article>
 
           <article class="timeline-item">
             <div class="timeline-date">Jul 2021–Mar 2022</div>
-            <div>
-              <h3>Research Trainee</h3>
+            <div class="timeline-content">
+              <h3>Research Training</h3>
               <p class="institution">Indian Institute of Technology Indore · Supervisor: Prof. Pankaj R. Sagdeo</p>
-              <p>Investigated disorder-induced optical absorption in crystalline and amorphous silicon through first-principles calculations, spectroscopy, and Urbach-energy analysis.</p>
+              <p>
+                Investigated structural disorder and optical properties in crystalline
+                and amorphous silicon using first-principles calculations and spectroscopy,
+                including analysis of Urbach energy and its relevance to PV performance.
+              </p>
             </div>
           </article>
 
           <article class="timeline-item">
             <div class="timeline-date">Aug 2021–May 2022</div>
-            <div>
+            <div class="timeline-content">
               <h3>Integrated MSc Dissertation</h3>
               <p class="institution">National Institute of Technology Rourkela · Supervisor: Prof. Pitamber Mahanandia</p>
-              <p>Synthesised and characterised SnO₂/reduced-graphene-oxide nanocomposites and evaluated their potential as electron-transport layers and photoabsorbers for photovoltaic applications.</p>
+              <p>
+                Synthesised SnO₂/reduced graphene oxide nanocomposites and evaluated their
+                structural, optical, and photovoltaic relevance using XRD, Raman, and UV–Vis.
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-date">2022–2023</div>
+            <div class="timeline-content">
+              <h3>Advanced Physics Expert</h3>
+              <p class="institution">Chegg Inc. · Remote</p>
+              <p>
+                Solved undergraduate and postgraduate physics problems and developed
+                clear, step-by-step technical explanations across multiple disciplines.
+              </p>
             </div>
           </article>
         </div>
@@ -184,60 +287,98 @@
       <div class="container">
         <p class="section-label">Education</p>
         <h2>Academic background</h2>
-        <div class="cards three">
-          <article class="card">
-            <span class="card-number">2024–Present</span>
+
+        <div class="education-grid">
+          <article class="education-card">
+            <span>2024–Present</span>
             <h3>PhD in Physics</h3>
-            <p>University of Sheffield<br>EPSRC Doctoral Training Partnership scholarship</p>
+            <p>University of Sheffield</p>
+            <small>EPSRC Doctoral Training Partnership Scholarship</small>
           </article>
-          <article class="card">
-            <span class="card-number">2023–2024</span>
+
+          <article class="education-card">
+            <span>2023–2024</span>
             <h3>MSc Solar Cell Technology</h3>
-            <p>University of Sheffield<br>Graduated with Distinction</p>
+            <p>University of Sheffield</p>
+            <small>Distinction · Postgraduate Scholarship</small>
           </article>
-          <article class="card">
-            <span class="card-number">2017–2022</span>
-            <h3>Integrated MSc Physics</h3>
-            <p>National Institute of Technology Rourkela<br>CGPA: 8.24/10.00</p>
+
+          <article class="education-card">
+            <span>2017–2022</span>
+            <h3>Integrated MSc in Physics</h3>
+            <p>National Institute of Technology Rourkela</p>
+            <small>CGPA: 8.24/10.00</small>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="achievements">
+    <section class="section" id="skills">
       <div class="container">
-        <p class="section-label">Recognition</p>
-        <h2>Selected achievements</h2>
-        <div class="cards three">
-          <article class="card">
-            <span class="card-number">2026</span>
-            <h3>Best Poster Award</h3>
-            <p>Faculty of Science Doctoral School Showcase, University of Sheffield.</p>
+        <p class="section-label">Technical capabilities</p>
+        <h2>Skills and methods</h2>
+
+        <div class="skills-grid">
+          <article class="skill-panel">
+            <h3>Thin-film device fabrication</h3>
+            <div class="tags">
+              <span>N₂ glovebox processing</span>
+              <span>Spray coating</span>
+              <span>Spin coating</span>
+              <span>Thermal evaporation</span>
+              <span>Electron-beam evaporation</span>
+              <span>Laser patterning</span>
+              <span>Cleanroom processing</span>
+              <span>Device encapsulation</span>
+            </div>
           </article>
-          <article class="card">
-            <span class="card-number">2026</span>
-            <h3>RSC Broadening Horizons</h3>
-            <p>Selected for Cohort 5 of the Royal Society of Chemistry professional-development programme.</p>
+
+          <article class="skill-panel">
+            <h3>Characterisation</h3>
+            <div class="tags">
+              <span>J–V measurements</span>
+              <span>EQE</span>
+              <span>UV–Vis spectroscopy</span>
+              <span>Photoluminescence</span>
+              <span>XRD</span>
+              <span>Raman spectroscopy</span>
+              <span>SEM</span>
+              <span>AFM</span>
+              <span>Optical microscopy</span>
+              <span>Surface profilometry</span>
+              <span>Four-point probe</span>
+            </div>
           </article>
-          <article class="card">
-            <span class="card-number">2024</span>
-            <h3>EPSRC DTP Scholarship</h3>
-            <p>Awarded doctoral funding through the University of Sheffield EPSRC Doctoral Training Partnership.</p>
+
+          <article class="skill-panel">
+            <h3>Modelling and data analysis</h3>
+            <div class="tags">
+              <span>SCAPS-1D</span>
+              <span>gpvdm</span>
+              <span>PC1D</span>
+              <span>Python</span>
+              <span>NumPy</span>
+              <span>SciPy</span>
+              <span>Pandas</span>
+              <span>Matplotlib</span>
+              <span>pvlib</span>
+              <span>OriginPro</span>
+              <span>Microsoft Excel</span>
+            </div>
           </article>
-          <article class="card">
-            <span class="card-number">2023</span>
-            <h3>Postgraduate Scholarship</h3>
-            <p>Awarded for the MSc in Solar Cell Technology at the University of Sheffield.</p>
-          </article>
-          <article class="card">
-            <span class="card-number">2022</span>
-            <h3>GATE Physics</h3>
-            <p>Qualified the Graduate Aptitude Test in Engineering with All India Rank 2355.</p>
-          </article>
-          <article class="card">
-            <span class="card-number">2017</span>
-            <h3>JEE Main</h3>
-            <p>Qualified with All India Rank 23110 among approximately 1.2 million candidates.</p>
+
+          <article class="skill-panel">
+            <h3>Scientific communication</h3>
+            <div class="tags">
+              <span>LaTeX</span>
+              <span>Microsoft Word</span>
+              <span>Google Docs</span>
+              <span>Microsoft PowerPoint</span>
+              <span>Google Slides</span>
+              <span>Technical writing</span>
+              <span>Poster presentation</span>
+              <span>Oral presentation</span>
+            </div>
           </article>
         </div>
       </div>
@@ -247,91 +388,121 @@
       <div class="container">
         <p class="section-label">Presentations</p>
         <h2>Conference and research presentations</h2>
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-date">2026</div>
+
+        <div class="presentation-list">
+          <article class="presentation-item">
             <div>
-              <h3>ISOPHOS 2026 · Tuscany, Italy</h3>
-              <p class="institution">Oral presentation</p>
-              <p>“Toward Structural and Scalable Perovskite PV: Integration on Carbon Fibre Substrates.”</p>
+              <span class="presentation-type">Oral presentation</span>
+              <h3>ISOPHOS 2026</h3>
+              <p>International School on Hybrid Organic Photovoltaics · Tuscany, Italy</p>
             </div>
+            <p class="presentation-title">
+              “Toward Structural and Scalable Perovskite PV: Integration on Carbon Fibre Substrates.”
+            </p>
           </article>
-          <article class="timeline-item">
-            <div class="timeline-date">2026</div>
+
+          <article class="presentation-item">
             <div>
-              <h3>RSC Chemical Sciences Research Symposium · Sheffield</h3>
-              <p class="institution">Poster presentation</p>
-              <p>“Toward Structural Spray-Coated Perovskite PV: Integration on Carbon Fibre Substrates.”</p>
+              <span class="presentation-type">Poster presentation</span>
+              <h3>RSC Chemical Sciences Research Symposium 2026</h3>
+              <p>Sheffield, UK</p>
             </div>
+            <p class="presentation-title">
+              “Toward Structural Spray-Coated Perovskite PV: Integration on Carbon Fibre Substrates.”
+            </p>
           </article>
-          <article class="timeline-item">
-            <div class="timeline-date">2026</div>
+
+          <article class="presentation-item">
             <div>
-              <h3>UK Semiconductors Conference · Sheffield</h3>
-              <p class="institution">Poster presentation</p>
-              <p>“Toward Structural Spray-Coated Perovskite PV: Integration on Carbon Fibre Substrates.”</p>
+              <span class="presentation-type">Poster presentation</span>
+              <h3>UK Semiconductors Conference 2026</h3>
+              <p>Sheffield, UK</p>
             </div>
+            <p class="presentation-title">
+              “Toward Structural Spray-Coated Perovskite PV: Integration on Carbon Fibre Substrates.”
+            </p>
           </article>
-          <article class="timeline-item">
-            <div class="timeline-date">2026</div>
+
+          <article class="presentation-item">
             <div>
-              <h3>Faculty of Science Doctoral School Showcase</h3>
-              <p class="institution">Poster presentation · Best Poster Award</p>
-              <p>“Integration of Spray-Coated Perovskite Solar Cells onto Carbon Fibre Substrates.”</p>
+              <span class="presentation-type">Best Poster Award</span>
+              <h3>Faculty of Science Doctoral School Showcase 2026</h3>
+              <p>University of Sheffield</p>
             </div>
+            <p class="presentation-title">
+              “Integration of Spray-Coated Perovskite Solar Cells onto Carbon Fibre Substrates.”
+            </p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="skills">
+    <section class="section" id="achievements">
       <div class="container">
-        <p class="section-label">Capabilities</p>
-        <h2>Technical skills</h2>
-        <div class="skill-groups">
-          <div class="skill-group">
-            <h3>Thin-film fabrication</h3>
-            <div class="tags">
-              <span>N₂ glovebox processing</span><span>Spray coating</span><span>Spin coating</span>
-              <span>Thermal evaporation</span><span>Electron-beam evaporation</span><span>Laser patterning</span>
-              <span>Cleanroom processing</span><span>Device encapsulation</span>
-            </div>
-          </div>
-          <div class="skill-group">
-            <h3>Characterisation</h3>
-            <div class="tags">
-              <span>J–V measurements</span><span>EQE</span><span>UV–Vis</span><span>Photoluminescence</span>
-              <span>XRD</span><span>Raman</span><span>SEM</span><span>AFM</span>
-              <span>Optical microscopy</span><span>Surface profilometry</span><span>Four-point probe</span>
-            </div>
-          </div>
-          <div class="skill-group">
-            <h3>Modelling and data analysis</h3>
-            <div class="tags">
-              <span>SCAPS-1D</span><span>gpvdm</span><span>PC1D</span><span>Python</span>
-              <span>NumPy</span><span>SciPy</span><span>Pandas</span><span>Matplotlib</span>
-              <span>pvlib</span><span>OriginPro</span><span>Microsoft Excel</span>
-            </div>
-          </div>
+        <p class="section-label">Recognition</p>
+        <h2>Achievements and professional development</h2>
+
+        <div class="achievement-grid">
+          <article class="achievement-card">
+            <span>2026</span>
+            <h3>Best Poster Award</h3>
+            <p>Faculty of Science Doctoral School Showcase, University of Sheffield.</p>
+          </article>
+
+          <article class="achievement-card">
+            <span>2026–2027</span>
+            <h3>RSC Broadening Horizons Scholar</h3>
+            <p>
+              Selected for Cohort 5 of the Royal Society of Chemistry’s professional
+              development programme, including mentoring, leadership, networking,
+              industry engagement, and site visits.
+            </p>
+          </article>
+
+          <article class="achievement-card">
+            <span>2024</span>
+            <h3>EPSRC DTP Scholarship</h3>
+            <p>Awarded by the University of Sheffield for doctoral research in Physics.</p>
+          </article>
+
+          <article class="achievement-card">
+            <span>2023</span>
+            <h3>Postgraduate Scholarship</h3>
+            <p>Awarded for the MSc in Solar Cell Technology at the University of Sheffield.</p>
+          </article>
+
+          <article class="achievement-card">
+            <span>2022</span>
+            <h3>GATE Physics</h3>
+            <p>All India Rank 2355 out of 19,375 candidates.</p>
+          </article>
+
+          <article class="achievement-card">
+            <span>2017</span>
+            <h3>JEE Main</h3>
+            <p>All India Rank 23,110 out of approximately 1.2 million candidates.</p>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section section-alt" id="development">
-      <div class="container two-column">
+    <section class="section section-alt" id="additional">
+      <div class="container split">
         <div>
-          <p class="section-label">Professional development</p>
-          <h2>Broadening Horizons in the Chemical Sciences</h2>
+          <p class="section-label">Additional experience</p>
+          <h2>Training, leadership, and outreach</h2>
         </div>
-        <div class="about-copy">
+
+        <div class="prose">
           <p>
-            Selected as a Cohort 5 Scholar in the Royal Society of Chemistry’s Broadening Horizons in the
-            Chemical Sciences programme, running from March 2026 to December 2027.
+            I completed a training programme on energy materials and energy harvesting
+            devices at CSIR–Central Electrochemical Research Institute in 2021.
           </p>
+
           <p>
-            The programme includes mentoring, leadership development, career workshops, networking,
-            and industry engagement with organisations including Johnson Matthey, AstraZeneca, GSK,
-            Unilever, Syngenta, Nanomerics, and AM Technology.
+            During my time at NIT Rourkela, I contributed to science communication and
+            outreach through INSPIRE and Astro NITR, helping organise workshops, lectures,
+            telescope observation sessions, and public engagement activities.
           </p>
         </div>
       </div>
@@ -341,11 +512,16 @@
       <div class="container contact-grid">
         <div>
           <p class="section-label">Contact</p>
-          <h2>Let’s discuss photovoltaics, research, or collaboration.</h2>
-          <p class="hero-copy">Based in Sheffield, UK, and open to research collaborations, industry engagement, internships, and opportunities in photovoltaic technology.</p>
+          <h2>Interested in photovoltaics, research collaboration, or industry opportunities?</h2>
+          <p>
+            I welcome conversations related to perovskite photovoltaics, thin-film
+            processing, lightweight solar technologies, device physics, research,
+            internships, and scientific communication.
+          </p>
         </div>
+
         <div class="contact-actions">
-          <a class="button primary" href="mailto:dbehera1@sheffield.ac.uk">Send an email</a>
+          <a class="button primary" href="mailto:dbehera1@sheffield.ac.uk">Email me</a>
           <a class="button secondary" href="https://www.linkedin.com/in/dinesh-behera-8048a61b2/" target="_blank" rel="noopener">Connect on LinkedIn</a>
         </div>
       </div>
@@ -355,7 +531,7 @@
   <footer>
     <div class="container footer-content">
       <p>© <span id="year"></span> Dinesh Behera</p>
-      <p>Perovskite photovoltaics · Thin-film devices · Scalable fabrication</p>
+      <p>Perovskite photovoltaics · Sheffield, UK</p>
     </div>
   </footer>
 

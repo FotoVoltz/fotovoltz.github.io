@@ -6,7 +6,7 @@ toggle.addEventListener("click", () => {
   toggle.setAttribute("aria-expanded", String(isOpen));
 });
 
-document.querySelectorAll(".nav-links a").forEach(link => {
+document.querySelectorAll(".nav-links a").forEach((link) => {
   link.addEventListener("click", () => {
     navLinks.classList.remove("open");
     toggle.setAttribute("aria-expanded", "false");
